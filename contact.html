@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Details</title>
+  </head>
+  <body>
+    <h3>My Contact Details</h3>
+    <ul>
+      <li>
+        Email :
+        <a href="mailto:saurabh.sinha@bylocal.co.in"
+          >saurabh.sinha@bylocal.co.in</a
+        >
+      </li>
+      <li>Phone : +91 8377086507</li>
+      <li>
+        <a href="https://www.linkedin.com/in/saurabh-sinha-17aab4107"
+          >LinkedIn</a
+        >
+      </li>
+    </ul>
+    <form action="mailto:saurabh.sinha@bylocal.co.in" method="POST" enctype="text/plain">
+      <label for="">Your Name</label>
+      <input type="text" name="Name"/>
+      <br />
+      <label for="">Your Email</label>
+      <input type="email" name="Email"/>
+      <br />
+      <label for="">Your Query</label>
+      <br>
+      <textarea name="Query" id="" cols="30" rows="10"></textarea>
+      <br>
+      <label>Schedule a call</label>
+      <input type="date" name="Date"/>
+      <br />
+      <input type="checkbox" name="SignUp"/>
+      <label>Do you want to sign up for the email list?</label>
+      
+      <br />
+      <input type="submit" value="Save" />
+    </form>
+  </body>
+</html>
